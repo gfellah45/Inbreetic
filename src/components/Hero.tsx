@@ -9,14 +9,14 @@ interface HeroProps {
   description: string;
 }
 
-const Hero = ({ 
-  subtitle = heroContent.subtitle, 
-  title = heroContent.title, 
-  description = heroContent.description
+const Hero = ({
+  subtitle = heroContent.subtitle,
+  title = heroContent.title,
+  description = heroContent.description,
 }: HeroProps) => {
   return (
     <section className="pt-8 pb-12 md:pt-12 md:pb-16 bg-secondary overflow-hidden min-h-[350px] md:min-h-[400px] flex items-center">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-16">
         <div className="flex flex-col md:flex-row gap-8 md:gap-14 items-start">
           <AnimatedElement
             variant="fadeInLeft"
