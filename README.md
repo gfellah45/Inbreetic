@@ -37,13 +37,6 @@ src/
 │   └── Hero.tsx
 ```
 
-## Asset Replacement Instructions
-
-1. Replace placeholder images in the Hero and About sections with actual images
-2. Update the logo in the Header component
-3. Add company-specific content and copy
-4. Customize colors in tailwind.config.ts if needed
-
 ## Technologies Used
 
 - Next.js 14
@@ -56,6 +49,7 @@ src/
 ## Development
 
 The project uses modern development practices:
+
 - TypeScript for type safety
 - Tailwind CSS for styling
 - Framer Motion for animations
